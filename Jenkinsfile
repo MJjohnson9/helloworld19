@@ -23,11 +23,5 @@ pipeline {
       sleep 10   
       }
     }
-    stage('dokcer'){
-      steps {
-      echo "docker step"
-      sleep 10   
-      }
-    }     
   }
 }
